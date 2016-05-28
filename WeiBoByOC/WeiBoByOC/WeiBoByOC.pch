@@ -1,0 +1,22 @@
+//
+//  WeiBoByOC.pch
+//  WeiBoByOC
+///Users/xiaoyang/CoderJDYang/WeiBoByOC/WeiBoByOC/WeiBoByOC/WeiBoByOC.pch
+//  Created by xiaoyang on 16/5/28.
+//  Copyright © 2016年 yangChunFu. All rights reserved.
+//
+
+#ifndef WeiBoByOC_pch
+#define WeiBoByOC_pch
+
+
+#import "UIView+JDY.h"
+
+
+//RGB颜色
+#define JDYColor(r, g, b) [UIColor colorWithRed: (r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+
+//RGB随机色
+#define JDYRandomColor [UIColor colorWithRed:arc4random_uniform(256) / 255.0 green:arc4random_uniform(256) / 255.0 blue:arc4random_uniform(256) / 255.0 alpha:1.0];
+
+#endif /* WeiBoByOC_pch */
