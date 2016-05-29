@@ -7,42 +7,55 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E31C3A001CF867A700243E52 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E31C39FF1CF867A700243E52 /* main.m */; };
 		E31C3A0B1CF867A700243E52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E31C3A0A1CF867A700243E52 /* Assets.xcassets */; };
 		E31C3A0E1CF867A700243E52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E31C3A0C1CF867A700243E52 /* LaunchScreen.storyboard */; };
-		E33D5B591CF9682100E5A813 /* JDYTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E33D5B4B1CF9682100E5A813 /* JDYTabBarViewController.m */; };
-		E33D5B5A1CF9682100E5A813 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E33D5B581CF9682100E5A813 /* AppDelegate.m */; };
-		E33D5B601CF9B99C00E5A813 /* JDYDiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E33D5B5F1CF9B99C00E5A813 /* JDYDiscoverViewController.m */; };
-		E33D5B631CF9B9B900E5A813 /* JDYHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E33D5B621CF9B9B900E5A813 /* JDYHomeViewController.m */; };
-		E33D5B661CF9B9CD00E5A813 /* JDYMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E33D5B651CF9B9CD00E5A813 /* JDYMeViewController.m */; };
-		E33D5B6C1CF9B9EC00E5A813 /* JDYMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E33D5B6B1CF9B9EC00E5A813 /* JDYMessageViewController.m */; };
-		E33D5B6F1CF9BE5200E5A813 /* JDYNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E33D5B6E1CF9BE5200E5A813 /* JDYNavViewController.m */; };
-		E33D5B721CF9C76C00E5A813 /* UIView+JDY.m in Sources */ = {isa = PBXBuildFile; fileRef = E33D5B711CF9C76C00E5A813 /* UIView+JDY.m */; };
+		E33D5BB01CFAF44400E5A813 /* JDYDiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E33D5B841CFAF44400E5A813 /* JDYDiscoverViewController.m */; };
+		E33D5BB11CFAF44400E5A813 /* JDYHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E33D5B8A1CFAF44400E5A813 /* JDYHomeViewController.m */; };
+		E33D5BB21CFAF44400E5A813 /* UIView+JDY.m in Sources */ = {isa = PBXBuildFile; fileRef = E33D5B901CFAF44400E5A813 /* UIView+JDY.m */; };
+		E33D5BB31CFAF44400E5A813 /* JDYNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E33D5B931CFAF44400E5A813 /* JDYNavViewController.m */; };
+		E33D5BB41CFAF44400E5A813 /* JDYTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E33D5B951CFAF44400E5A813 /* JDYTabBarViewController.m */; };
+		E33D5BB51CFAF44400E5A813 /* JDYMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E33D5B9C1CFAF44400E5A813 /* JDYMeViewController.m */; };
+		E33D5BB61CFAF44400E5A813 /* JDYMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E33D5BA21CFAF44400E5A813 /* JDYMessageViewController.m */; };
+		E33D5BB71CFAF44400E5A813 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E33D5BA71CFAF44400E5A813 /* AppDelegate.m */; };
+		E33D5BB81CFAF44400E5A813 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E33D5BA81CFAF44400E5A813 /* main.m */; };
+		E33D5BB91CFAF44400E5A813 /* JDYText1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E33D5BAB1CFAF44400E5A813 /* JDYText1ViewController.m */; };
+		E33D5BBA1CFAF44400E5A813 /* JDYText1ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E33D5BAC1CFAF44400E5A813 /* JDYText1ViewController.xib */; };
+		E33D5BBB1CFAF44400E5A813 /* JDYText2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E33D5BAE1CFAF44400E5A813 /* JDYText2ViewController.m */; };
+		E33D5BBC1CFAF44400E5A813 /* JDYText2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E33D5BAF1CFAF44400E5A813 /* JDYText2ViewController.xib */; };
+		E33D5BBF1CFB125500E5A813 /* UIBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = E33D5BBE1CFB125500E5A813 /* UIBarButtonItem+Extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E31C39FB1CF867A600243E52 /* WeiBoByOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeiBoByOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E31C39FF1CF867A700243E52 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E31C3A0A1CF867A700243E52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E31C3A0D1CF867A700243E52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E31C3A0F1CF867A700243E52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E33D5B2A1CF9225000E5A813 /* WeiBoByOC.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeiBoByOC.pch; sourceTree = "<group>"; };
-		E33D5B4A1CF9682100E5A813 /* JDYTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDYTabBarViewController.h; sourceTree = "<group>"; };
-		E33D5B4B1CF9682100E5A813 /* JDYTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDYTabBarViewController.m; sourceTree = "<group>"; };
-		E33D5B571CF9682100E5A813 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		E33D5B581CF9682100E5A813 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E33D5B5E1CF9B99C00E5A813 /* JDYDiscoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDYDiscoverViewController.h; sourceTree = "<group>"; };
-		E33D5B5F1CF9B99C00E5A813 /* JDYDiscoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDYDiscoverViewController.m; sourceTree = "<group>"; };
-		E33D5B611CF9B9B900E5A813 /* JDYHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDYHomeViewController.h; sourceTree = "<group>"; };
-		E33D5B621CF9B9B900E5A813 /* JDYHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDYHomeViewController.m; sourceTree = "<group>"; };
-		E33D5B641CF9B9CD00E5A813 /* JDYMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDYMeViewController.h; sourceTree = "<group>"; };
-		E33D5B651CF9B9CD00E5A813 /* JDYMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDYMeViewController.m; sourceTree = "<group>"; };
-		E33D5B6A1CF9B9EC00E5A813 /* JDYMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDYMessageViewController.h; sourceTree = "<group>"; };
-		E33D5B6B1CF9B9EC00E5A813 /* JDYMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDYMessageViewController.m; sourceTree = "<group>"; };
-		E33D5B6D1CF9BE5200E5A813 /* JDYNavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDYNavViewController.h; sourceTree = "<group>"; };
-		E33D5B6E1CF9BE5200E5A813 /* JDYNavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDYNavViewController.m; sourceTree = "<group>"; };
-		E33D5B701CF9C76C00E5A813 /* UIView+JDY.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JDY.h"; sourceTree = "<group>"; };
-		E33D5B711CF9C76C00E5A813 /* UIView+JDY.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JDY.m"; sourceTree = "<group>"; };
+		E33D5B831CFAF44400E5A813 /* JDYDiscoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDYDiscoverViewController.h; sourceTree = "<group>"; };
+		E33D5B841CFAF44400E5A813 /* JDYDiscoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDYDiscoverViewController.m; sourceTree = "<group>"; };
+		E33D5B891CFAF44400E5A813 /* JDYHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDYHomeViewController.h; sourceTree = "<group>"; };
+		E33D5B8A1CFAF44400E5A813 /* JDYHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDYHomeViewController.m; sourceTree = "<group>"; };
+		E33D5B8F1CFAF44400E5A813 /* UIView+JDY.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JDY.h"; sourceTree = "<group>"; };
+		E33D5B901CFAF44400E5A813 /* UIView+JDY.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JDY.m"; sourceTree = "<group>"; };
+		E33D5B921CFAF44400E5A813 /* JDYNavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDYNavViewController.h; sourceTree = "<group>"; };
+		E33D5B931CFAF44400E5A813 /* JDYNavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDYNavViewController.m; sourceTree = "<group>"; };
+		E33D5B941CFAF44400E5A813 /* JDYTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDYTabBarViewController.h; sourceTree = "<group>"; };
+		E33D5B951CFAF44400E5A813 /* JDYTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDYTabBarViewController.m; sourceTree = "<group>"; };
+		E33D5B9B1CFAF44400E5A813 /* JDYMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDYMeViewController.h; sourceTree = "<group>"; };
+		E33D5B9C1CFAF44400E5A813 /* JDYMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDYMeViewController.m; sourceTree = "<group>"; };
+		E33D5BA11CFAF44400E5A813 /* JDYMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDYMessageViewController.h; sourceTree = "<group>"; };
+		E33D5BA21CFAF44400E5A813 /* JDYMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDYMessageViewController.m; sourceTree = "<group>"; };
+		E33D5BA61CFAF44400E5A813 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E33D5BA71CFAF44400E5A813 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E33D5BA81CFAF44400E5A813 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E33D5BAA1CFAF44400E5A813 /* JDYText1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDYText1ViewController.h; sourceTree = "<group>"; };
+		E33D5BAB1CFAF44400E5A813 /* JDYText1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDYText1ViewController.m; sourceTree = "<group>"; };
+		E33D5BAC1CFAF44400E5A813 /* JDYText1ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JDYText1ViewController.xib; sourceTree = "<group>"; };
+		E33D5BAD1CFAF44400E5A813 /* JDYText2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDYText2ViewController.h; sourceTree = "<group>"; };
+		E33D5BAE1CFAF44400E5A813 /* JDYText2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDYText2ViewController.m; sourceTree = "<group>"; };
+		E33D5BAF1CFAF44400E5A813 /* JDYText2ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JDYText2ViewController.xib; sourceTree = "<group>"; };
+		E33D5BBD1CFB125500E5A813 /* UIBarButtonItem+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Extension.h"; sourceTree = "<group>"; };
+		E33D5BBE1CFB125500E5A813 /* UIBarButtonItem+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Extension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,10 +88,9 @@
 		E31C39FD1CF867A700243E52 /* WeiBoByOC */ = {
 			isa = PBXGroup;
 			children = (
-				E33D5B3F1CF9682100E5A813 /* Classes */,
+				E33D5B801CFAF44400E5A813 /* Classes */,
 				E31C3A0A1CF867A700243E52 /* Assets.xcassets */,
 				E31C3A0C1CF867A700243E52 /* LaunchScreen.storyboard */,
-				E31C3A0F1CF867A700243E52 /* Info.plist */,
 				E31C39FE1CF867A700243E52 /* Supporting Files */,
 			);
 			path = WeiBoByOC;
@@ -87,201 +99,234 @@
 		E31C39FE1CF867A700243E52 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				E31C39FF1CF867A700243E52 /* main.m */,
+				E31C3A0F1CF867A700243E52 /* Info.plist */,
 				E33D5B2A1CF9225000E5A813 /* WeiBoByOC.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		E33D5B3F1CF9682100E5A813 /* Classes */ = {
+		E33D5B801CFAF44400E5A813 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				E33D5B481CF9682100E5A813 /* Main */,
-				E33D5B401CF9682100E5A813 /* Discover */,
-				E33D5B441CF9682100E5A813 /* Home */,
-				E33D5B4E1CF9682100E5A813 /* Me */,
-				E33D5B521CF9682100E5A813 /* Message */,
-				E33D5B561CF9682100E5A813 /* Other */,
+				E33D5B8D1CFAF44400E5A813 /* Main */,
+				E33D5B811CFAF44400E5A813 /* Discover */,
+				E33D5B871CFAF44400E5A813 /* Home */,
+				E33D5B991CFAF44400E5A813 /* Me */,
+				E33D5B9F1CFAF44400E5A813 /* Message */,
+				E33D5BA51CFAF44400E5A813 /* Other */,
+				E33D5BA91CFAF44400E5A813 /* Temp(临时) */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
 		};
-		E33D5B401CF9682100E5A813 /* Discover */ = {
+		E33D5B811CFAF44400E5A813 /* Discover */ = {
 			isa = PBXGroup;
 			children = (
-				E33D5B411CF9682100E5A813 /* Controller */,
-				E33D5B421CF9682100E5A813 /* Model */,
-				E33D5B431CF9682100E5A813 /* View */,
+				E33D5B821CFAF44400E5A813 /* Controller */,
+				E33D5B851CFAF44400E5A813 /* Model */,
+				E33D5B861CFAF44400E5A813 /* View */,
 			);
 			path = Discover;
 			sourceTree = "<group>";
 		};
-		E33D5B411CF9682100E5A813 /* Controller */ = {
+		E33D5B821CFAF44400E5A813 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				E33D5B5E1CF9B99C00E5A813 /* JDYDiscoverViewController.h */,
-				E33D5B5F1CF9B99C00E5A813 /* JDYDiscoverViewController.m */,
+				E33D5B831CFAF44400E5A813 /* JDYDiscoverViewController.h */,
+				E33D5B841CFAF44400E5A813 /* JDYDiscoverViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		E33D5B421CF9682100E5A813 /* Model */ = {
+		E33D5B851CFAF44400E5A813 /* Model */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Model;
 			sourceTree = "<group>";
 		};
-		E33D5B431CF9682100E5A813 /* View */ = {
+		E33D5B861CFAF44400E5A813 /* View */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = View;
 			sourceTree = "<group>";
 		};
-		E33D5B441CF9682100E5A813 /* Home */ = {
+		E33D5B871CFAF44400E5A813 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				E33D5B451CF9682100E5A813 /* Controller */,
-				E33D5B461CF9682100E5A813 /* Model */,
-				E33D5B471CF9682100E5A813 /* View */,
+				E33D5B881CFAF44400E5A813 /* Controller */,
+				E33D5B8B1CFAF44400E5A813 /* Model */,
+				E33D5B8C1CFAF44400E5A813 /* View */,
 			);
 			path = Home;
 			sourceTree = "<group>";
 		};
-		E33D5B451CF9682100E5A813 /* Controller */ = {
+		E33D5B881CFAF44400E5A813 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				E33D5B611CF9B9B900E5A813 /* JDYHomeViewController.h */,
-				E33D5B621CF9B9B900E5A813 /* JDYHomeViewController.m */,
+				E33D5B891CFAF44400E5A813 /* JDYHomeViewController.h */,
+				E33D5B8A1CFAF44400E5A813 /* JDYHomeViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		E33D5B461CF9682100E5A813 /* Model */ = {
+		E33D5B8B1CFAF44400E5A813 /* Model */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Model;
 			sourceTree = "<group>";
 		};
-		E33D5B471CF9682100E5A813 /* View */ = {
+		E33D5B8C1CFAF44400E5A813 /* View */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = View;
 			sourceTree = "<group>";
 		};
-		E33D5B481CF9682100E5A813 /* Main */ = {
+		E33D5B8D1CFAF44400E5A813 /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				E33D5B491CF9682100E5A813 /* Controller */,
-				E33D5B4A1CF9682100E5A813 /* JDYTabBarViewController.h */,
-				E33D5B4B1CF9682100E5A813 /* JDYTabBarViewController.m */,
-				E33D5B6D1CF9BE5200E5A813 /* JDYNavViewController.h */,
-				E33D5B6E1CF9BE5200E5A813 /* JDYNavViewController.m */,
-				E33D5B4C1CF9682100E5A813 /* Model */,
-				E33D5B4D1CF9682100E5A813 /* View */,
+				E33D5B8E1CFAF44400E5A813 /* Category */,
+				E33D5B911CFAF44400E5A813 /* Controller */,
+				E33D5B961CFAF44400E5A813 /* Lib */,
+				E33D5B971CFAF44400E5A813 /* Model */,
+				E33D5B981CFAF44400E5A813 /* View */,
 			);
 			path = Main;
 			sourceTree = "<group>";
 		};
-		E33D5B491CF9682100E5A813 /* Controller */ = {
+		E33D5B8E1CFAF44400E5A813 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				E33D5B8F1CFAF44400E5A813 /* UIView+JDY.h */,
+				E33D5B901CFAF44400E5A813 /* UIView+JDY.m */,
+				E33D5BBD1CFB125500E5A813 /* UIBarButtonItem+Extension.h */,
+				E33D5BBE1CFB125500E5A813 /* UIBarButtonItem+Extension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		E33D5B911CFAF44400E5A813 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E33D5B941CFAF44400E5A813 /* JDYTabBarViewController.h */,
+				E33D5B951CFAF44400E5A813 /* JDYTabBarViewController.m */,
+				E33D5B921CFAF44400E5A813 /* JDYNavViewController.h */,
+				E33D5B931CFAF44400E5A813 /* JDYNavViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		E33D5B4C1CF9682100E5A813 /* Model */ = {
+		E33D5B961CFAF44400E5A813 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		E33D5B971CFAF44400E5A813 /* Model */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Model;
 			sourceTree = "<group>";
 		};
-		E33D5B4D1CF9682100E5A813 /* View */ = {
+		E33D5B981CFAF44400E5A813 /* View */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = View;
 			sourceTree = "<group>";
 		};
-		E33D5B4E1CF9682100E5A813 /* Me */ = {
+		E33D5B991CFAF44400E5A813 /* Me */ = {
 			isa = PBXGroup;
 			children = (
-				E33D5B4F1CF9682100E5A813 /* Controller */,
-				E33D5B501CF9682100E5A813 /* Model */,
-				E33D5B511CF9682100E5A813 /* View */,
+				E33D5B9A1CFAF44400E5A813 /* Controller */,
+				E33D5B9D1CFAF44400E5A813 /* Model */,
+				E33D5B9E1CFAF44400E5A813 /* View */,
 			);
 			path = Me;
 			sourceTree = "<group>";
 		};
-		E33D5B4F1CF9682100E5A813 /* Controller */ = {
+		E33D5B9A1CFAF44400E5A813 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				E33D5B641CF9B9CD00E5A813 /* JDYMeViewController.h */,
-				E33D5B651CF9B9CD00E5A813 /* JDYMeViewController.m */,
+				E33D5B9B1CFAF44400E5A813 /* JDYMeViewController.h */,
+				E33D5B9C1CFAF44400E5A813 /* JDYMeViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		E33D5B501CF9682100E5A813 /* Model */ = {
+		E33D5B9D1CFAF44400E5A813 /* Model */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Model;
 			sourceTree = "<group>";
 		};
-		E33D5B511CF9682100E5A813 /* View */ = {
+		E33D5B9E1CFAF44400E5A813 /* View */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = View;
 			sourceTree = "<group>";
 		};
-		E33D5B521CF9682100E5A813 /* Message */ = {
+		E33D5B9F1CFAF44400E5A813 /* Message */ = {
 			isa = PBXGroup;
 			children = (
-				E33D5B531CF9682100E5A813 /* Controller */,
-				E33D5B541CF9682100E5A813 /* Model */,
-				E33D5B551CF9682100E5A813 /* View */,
+				E33D5BA01CFAF44400E5A813 /* Controller */,
+				E33D5BA31CFAF44400E5A813 /* Model */,
+				E33D5BA41CFAF44400E5A813 /* View */,
 			);
 			path = Message;
 			sourceTree = "<group>";
 		};
-		E33D5B531CF9682100E5A813 /* Controller */ = {
+		E33D5BA01CFAF44400E5A813 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				E33D5B6A1CF9B9EC00E5A813 /* JDYMessageViewController.h */,
-				E33D5B6B1CF9B9EC00E5A813 /* JDYMessageViewController.m */,
+				E33D5BA11CFAF44400E5A813 /* JDYMessageViewController.h */,
+				E33D5BA21CFAF44400E5A813 /* JDYMessageViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		E33D5B541CF9682100E5A813 /* Model */ = {
+		E33D5BA31CFAF44400E5A813 /* Model */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Model;
 			sourceTree = "<group>";
 		};
-		E33D5B551CF9682100E5A813 /* View */ = {
+		E33D5BA41CFAF44400E5A813 /* View */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = View;
 			sourceTree = "<group>";
 		};
-		E33D5B561CF9682100E5A813 /* Other */ = {
+		E33D5BA51CFAF44400E5A813 /* Other */ = {
 			isa = PBXGroup;
 			children = (
-				E33D5B571CF9682100E5A813 /* AppDelegate.h */,
-				E33D5B581CF9682100E5A813 /* AppDelegate.m */,
-				E33D5B701CF9C76C00E5A813 /* UIView+JDY.h */,
-				E33D5B711CF9C76C00E5A813 /* UIView+JDY.m */,
+				E33D5BA61CFAF44400E5A813 /* AppDelegate.h */,
+				E33D5BA71CFAF44400E5A813 /* AppDelegate.m */,
+				E33D5BA81CFAF44400E5A813 /* main.m */,
 			);
 			path = Other;
+			sourceTree = "<group>";
+		};
+		E33D5BA91CFAF44400E5A813 /* Temp(临时) */ = {
+			isa = PBXGroup;
+			children = (
+				E33D5BAA1CFAF44400E5A813 /* JDYText1ViewController.h */,
+				E33D5BAB1CFAF44400E5A813 /* JDYText1ViewController.m */,
+				E33D5BAC1CFAF44400E5A813 /* JDYText1ViewController.xib */,
+				E33D5BAD1CFAF44400E5A813 /* JDYText2ViewController.h */,
+				E33D5BAE1CFAF44400E5A813 /* JDYText2ViewController.m */,
+				E33D5BAF1CFAF44400E5A813 /* JDYText2ViewController.xib */,
+			);
+			path = "Temp(临时)";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -343,6 +388,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E33D5BBC1CFAF44400E5A813 /* JDYText2ViewController.xib in Resources */,
+				E33D5BBA1CFAF44400E5A813 /* JDYText1ViewController.xib in Resources */,
 				E31C3A0E1CF867A700243E52 /* LaunchScreen.storyboard in Resources */,
 				E31C3A0B1CF867A700243E52 /* Assets.xcassets in Resources */,
 			);
@@ -355,15 +402,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E33D5B591CF9682100E5A813 /* JDYTabBarViewController.m in Sources */,
-				E31C3A001CF867A700243E52 /* main.m in Sources */,
-				E33D5B661CF9B9CD00E5A813 /* JDYMeViewController.m in Sources */,
-				E33D5B5A1CF9682100E5A813 /* AppDelegate.m in Sources */,
-				E33D5B721CF9C76C00E5A813 /* UIView+JDY.m in Sources */,
-				E33D5B6F1CF9BE5200E5A813 /* JDYNavViewController.m in Sources */,
-				E33D5B6C1CF9B9EC00E5A813 /* JDYMessageViewController.m in Sources */,
-				E33D5B631CF9B9B900E5A813 /* JDYHomeViewController.m in Sources */,
-				E33D5B601CF9B99C00E5A813 /* JDYDiscoverViewController.m in Sources */,
+				E33D5BBF1CFB125500E5A813 /* UIBarButtonItem+Extension.m in Sources */,
+				E33D5BB41CFAF44400E5A813 /* JDYTabBarViewController.m in Sources */,
+				E33D5BB91CFAF44400E5A813 /* JDYText1ViewController.m in Sources */,
+				E33D5BB31CFAF44400E5A813 /* JDYNavViewController.m in Sources */,
+				E33D5BB51CFAF44400E5A813 /* JDYMeViewController.m in Sources */,
+				E33D5BB01CFAF44400E5A813 /* JDYDiscoverViewController.m in Sources */,
+				E33D5BB71CFAF44400E5A813 /* AppDelegate.m in Sources */,
+				E33D5BB61CFAF44400E5A813 /* JDYMessageViewController.m in Sources */,
+				E33D5BBB1CFAF44400E5A813 /* JDYText2ViewController.m in Sources */,
+				E33D5BB21CFAF44400E5A813 /* UIView+JDY.m in Sources */,
+				E33D5BB81CFAF44400E5A813 /* main.m in Sources */,
+				E33D5BB11CFAF44400E5A813 /* JDYHomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -9,6 +9,12 @@
 #import "UIView+JDY.h"
 
 @implementation UIView (JDY)
+
++ (instancetype)JDY_viewFormXib
+{
+    return [[NSBundle mainBundle] loadNibNamed:NSStringFromClass(self) owner:nil options:nil].lastObject;
+}
+
 - (void)setJDY_x:(CGFloat)JDY_x
 {
     CGRect frame = self.frame;

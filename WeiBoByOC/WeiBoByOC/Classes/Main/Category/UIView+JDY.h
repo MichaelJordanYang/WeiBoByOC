@@ -16,4 +16,8 @@
 @property (nonatomic, assign) CGFloat JDY_height;
 @property (nonatomic, assign) CGSize JDY_size;
 @property (nonatomic, assign) CGPoint JDY_origin;
+
+//提供类方法加载xib
++ (instancetype)JDY_viewFormXib;
+
 @end

@@ -64,7 +64,19 @@
     //设置选中原图
     childVc.tabBarItem.selectedImage = selectedImage;
     //设置标题
-    childVc.tabBarItem.title = title;
+    childVc.title = title;
+    
+    //设置文字的样式
+    NSMutableDictionary *textAttr = [NSMutableDictionary dictionary];
+    textAttr[NSForegroundColorAttributeName] = JDYColor(123, 124, 123);
+   
+    NSMutableDictionary *selectedAttr = [NSMutableDictionary dictionary];
+    selectedAttr[NSForegroundColorAttributeName] = [UIColor orangeColor];
+    
+    [childVc.tabBarItem setTitleTextAttributes:textAttr forState:UIControlStateNormal];
+    [childVc.tabBarItem setTitleTextAttributes:selectedAttr forState:UIControlStateSelected];
+    
+   
     
     //添加每个控制器到TabBar中
     [self addChildViewController:nav];
