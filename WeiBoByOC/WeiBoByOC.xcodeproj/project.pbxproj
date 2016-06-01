@@ -24,6 +24,8 @@
 		E33D5BBC1CFAF44400E5A813 /* JDYText2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E33D5BAF1CFAF44400E5A813 /* JDYText2ViewController.xib */; };
 		E33D5BBF1CFB125500E5A813 /* UIBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = E33D5BBE1CFB125500E5A813 /* UIBarButtonItem+Extension.m */; };
 		E342899B1CFC514A00C2F1CA /* JDYSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = E342899A1CFC514A00C2F1CA /* JDYSearchBar.m */; };
+		E342899E1CFC640900C2F1CA /* JDYDropdownMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = E342899D1CFC640900C2F1CA /* JDYDropdownMenu.m */; };
+		E387EEC21CFEE29A000969AC /* JDYMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E387EEC11CFEE29A000969AC /* JDYMenuViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,6 +61,10 @@
 		E33D5BBE1CFB125500E5A813 /* UIBarButtonItem+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Extension.m"; sourceTree = "<group>"; };
 		E34289991CFC514A00C2F1CA /* JDYSearchBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDYSearchBar.h; sourceTree = "<group>"; };
 		E342899A1CFC514A00C2F1CA /* JDYSearchBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDYSearchBar.m; sourceTree = "<group>"; };
+		E342899C1CFC640900C2F1CA /* JDYDropdownMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDYDropdownMenu.h; sourceTree = "<group>"; };
+		E342899D1CFC640900C2F1CA /* JDYDropdownMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDYDropdownMenu.m; sourceTree = "<group>"; };
+		E387EEC01CFEE29A000969AC /* JDYMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDYMenuViewController.h; sourceTree = "<group>"; };
+		E387EEC11CFEE29A000969AC /* JDYMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDYMenuViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,8 +118,8 @@
 			isa = PBXGroup;
 			children = (
 				E33D5B8D1CFAF44400E5A813 /* Main */,
-				E33D5B811CFAF44400E5A813 /* Discover */,
 				E33D5B871CFAF44400E5A813 /* Home */,
+				E33D5B811CFAF44400E5A813 /* Discover */,
 				E33D5B991CFAF44400E5A813 /* Me */,
 				E33D5B9F1CFAF44400E5A813 /* Message */,
 				E33D5BA51CFAF44400E5A813 /* Other */,
@@ -184,6 +190,8 @@
 		E33D5B8C1CFAF44400E5A813 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				E387EEC01CFEE29A000969AC /* JDYMenuViewController.h */,
+				E387EEC11CFEE29A000969AC /* JDYMenuViewController.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -338,6 +346,8 @@
 			children = (
 				E34289991CFC514A00C2F1CA /* JDYSearchBar.h */,
 				E342899A1CFC514A00C2F1CA /* JDYSearchBar.m */,
+				E342899C1CFC640900C2F1CA /* JDYDropdownMenu.h */,
+				E342899D1CFC640900C2F1CA /* JDYDropdownMenu.m */,
 			);
 			path = Tool;
 			sourceTree = "<group>";
@@ -418,6 +428,7 @@
 				E33D5BBF1CFB125500E5A813 /* UIBarButtonItem+Extension.m in Sources */,
 				E33D5BB41CFAF44400E5A813 /* JDYTabBarViewController.m in Sources */,
 				E33D5BB91CFAF44400E5A813 /* JDYText1ViewController.m in Sources */,
+				E387EEC21CFEE29A000969AC /* JDYMenuViewController.m in Sources */,
 				E33D5BB31CFAF44400E5A813 /* JDYNavViewController.m in Sources */,
 				E342899B1CFC514A00C2F1CA /* JDYSearchBar.m in Sources */,
 				E33D5BB51CFAF44400E5A813 /* JDYMeViewController.m in Sources */,
@@ -428,6 +439,7 @@
 				E33D5BB21CFAF44400E5A813 /* UIView+JDY.m in Sources */,
 				E33D5BB81CFAF44400E5A813 /* main.m in Sources */,
 				E33D5BB11CFAF44400E5A813 /* JDYHomeViewController.m in Sources */,
+				E342899E1CFC640900C2F1CA /* JDYDropdownMenu.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -46,7 +46,11 @@
     }
     return self;
 }
-
+/**
+ *  搜索框方法
+ *
+ *  @return 返回搜索框
+ */
 + (instancetype)searchBar
 {
     return [[self alloc] init];
