@@ -39,6 +39,31 @@
     return self.frame.origin.y;
 }
 
+
+- (void)setJDY_centerX:(CGFloat)JDY_centerX
+{
+    CGPoint center = self.center;
+    center.x = JDY_centerX;
+    self.center = center;
+}
+
+- (CGFloat)JDY_centerX
+{
+    return self.center.x;
+}
+
+- (void)setJDY_centerY:(CGFloat)JDY_centerY
+{
+    CGPoint center = self.center;
+    center.y = JDY_centerY;
+    self.center = center;
+}
+
+- (CGFloat)JDY_centerY
+{
+    return self.center.y;
+}
+
 - (void)setJDY_width:(CGFloat)JDY_width
 {
     CGRect frame = self.frame;

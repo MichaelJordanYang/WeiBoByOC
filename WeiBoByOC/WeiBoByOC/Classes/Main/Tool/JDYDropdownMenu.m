@@ -113,8 +113,13 @@
     self.frame = window.bounds;
     
     //4.调整灰色图片的位置
-    self.containerView.JDY_x = (self.JDY_width - self.containerView.JDY_width) * 0.5;
-    self.containerView.JDY_y = 50;
+    //默认你情况向,frame是以父控件左上角坐标为原点
+    //转换坐标系.
+    CGRect newFrame = [from convertRect:from.bounds toView:window];
+    //获取自身中点的x值
+    self.containerView.JDY_centerX = CGRectGetMidX(newFrame);
+    
+    self.containerView.JDY_y = CGRectGetMaxY(newFrame);
     
 }
 
@@ -127,6 +132,12 @@
      *  将菜单从窗口中移除
      */
     [self removeFromSuperview];
+}
+
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
+{
+    [self dismiss];
 }
 
 @end

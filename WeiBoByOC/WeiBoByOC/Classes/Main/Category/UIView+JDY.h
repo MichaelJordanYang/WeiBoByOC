@@ -12,6 +12,8 @@
 
 @property (nonatomic, assign) CGFloat JDY_x;
 @property (nonatomic, assign) CGFloat JDY_y;
+@property (nonatomic, assign) CGFloat JDY_centerX;
+@property (nonatomic, assign) CGFloat  JDY_centerY;
 @property (nonatomic, assign) CGFloat JDY_width;
 @property (nonatomic, assign) CGFloat JDY_height;
 @property (nonatomic, assign) CGSize JDY_size;
