@@ -13,7 +13,10 @@
 #import "JDYMessageViewController.h"
 #import "JDYMeViewController.h"
 
-@interface JDYTabBarViewController ()
+#import "JDYTabBar.h"
+
+#import "JDYRemoveMissViewController.h"
+@interface JDYTabBarViewController () <JDYTabBarDelegate>
 
 @end
 
@@ -37,6 +40,18 @@
     //我
     JDYMeViewController *meVc = [[JDYMeViewController alloc] init];
     [self addOneChildVc:meVc andImageName:[UIImage imageNamed:@"tabbar_profile"] andSelectedImageName:[UIImage imageNamed:@"tabbar_profile_highlighted"] andTitle:@"我"];
+  
+    JDYTabBar *tabBar = [[JDYTabBar alloc] init];
+    
+    tabBar.delegate = self;
+    
+    //更换系统自带的TabBar
+    [self setValue:[[JDYTabBar alloc] init] forKeyPath:@"tabBar"];
+    
+    
+  
+    
+    
 }
 
 /**
@@ -80,6 +95,19 @@
     
     //添加每个控制器到TabBar中
     [self addChildViewController:nav];
+    
+}
+
+#pragma mark --------------------
+#pragma mark JDYTabBarDelegate
+- (void)tabBarDidClickPlusButton:(JDYTabBar *)tabBar
+{
+    JDYRemoveMissViewController *vc = [[JDYRemoveMissViewController alloc] init];
+    vc.view.backgroundColor = [UIColor grayColor];
+    [self presentViewController:vc animated:YES completion:^{
+        
+    }];
+    
     
 }
 

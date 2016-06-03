@@ -26,6 +26,7 @@
 		E342899B1CFC514A00C2F1CA /* JDYSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = E342899A1CFC514A00C2F1CA /* JDYSearchBar.m */; };
 		E342899E1CFC640900C2F1CA /* JDYDropdownMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = E342899D1CFC640900C2F1CA /* JDYDropdownMenu.m */; };
 		E387EEC21CFEE29A000969AC /* JDYMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E387EEC11CFEE29A000969AC /* JDYMenuViewController.m */; };
+		E387EEC51D007A4C000969AC /* JDYTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = E387EEC41D007A4C000969AC /* JDYTabBar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -65,6 +66,8 @@
 		E342899D1CFC640900C2F1CA /* JDYDropdownMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDYDropdownMenu.m; sourceTree = "<group>"; };
 		E387EEC01CFEE29A000969AC /* JDYMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDYMenuViewController.h; sourceTree = "<group>"; };
 		E387EEC11CFEE29A000969AC /* JDYMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDYMenuViewController.m; sourceTree = "<group>"; };
+		E387EEC31D007A4C000969AC /* JDYTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDYTabBar.h; sourceTree = "<group>"; };
+		E387EEC41D007A4C000969AC /* JDYTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDYTabBar.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -202,9 +205,9 @@
 				E34289981CFC514A00C2F1CA /* Tool */,
 				E33D5B8E1CFAF44400E5A813 /* Category */,
 				E33D5B911CFAF44400E5A813 /* Controller */,
-				E33D5B961CFAF44400E5A813 /* Lib */,
 				E33D5B971CFAF44400E5A813 /* Model */,
 				E33D5B981CFAF44400E5A813 /* View */,
+				E33D5B961CFAF44400E5A813 /* Lib */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -248,6 +251,8 @@
 		E33D5B981CFAF44400E5A813 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				E387EEC31D007A4C000969AC /* JDYTabBar.h */,
+				E387EEC41D007A4C000969AC /* JDYTabBar.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -434,6 +439,7 @@
 				E33D5BB51CFAF44400E5A813 /* JDYMeViewController.m in Sources */,
 				E33D5BB01CFAF44400E5A813 /* JDYDiscoverViewController.m in Sources */,
 				E33D5BB71CFAF44400E5A813 /* AppDelegate.m in Sources */,
+				E387EEC51D007A4C000969AC /* JDYTabBar.m in Sources */,
 				E33D5BB61CFAF44400E5A813 /* JDYMessageViewController.m in Sources */,
 				E33D5BBB1CFAF44400E5A813 /* JDYText2ViewController.m in Sources */,
 				E33D5BB21CFAF44400E5A813 /* UIView+JDY.m in Sources */,
@@ -493,7 +499,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -530,7 +536,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;

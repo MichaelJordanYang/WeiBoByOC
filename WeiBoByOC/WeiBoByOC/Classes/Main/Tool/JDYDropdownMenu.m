@@ -114,7 +114,7 @@
     
     //4.调整灰色图片的位置
     //默认你情况向,frame是以父控件左上角坐标为原点
-    //转换坐标系.
+    //转换坐标系,将bounds这个坐标系转换成window坐标系
     CGRect newFrame = [from convertRect:from.bounds toView:window];
     //获取自身中点的x值
     self.containerView.JDY_centerX = CGRectGetMidX(newFrame);
@@ -134,9 +134,10 @@
     [self removeFromSuperview];
 }
 
-
+//点击view调用方法
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
 {
+    //移除view
     [self dismiss];
 }
 
