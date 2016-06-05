@@ -15,7 +15,7 @@
 
 #import "JDYTabBar.h"
 
-#import "JDYRemoveMissViewController.h"
+#import "JDYRemoveViewController.h"
 @interface JDYTabBarViewController () <JDYTabBarDelegate>
 
 @end
@@ -102,7 +102,7 @@
 #pragma mark JDYTabBarDelegate
 - (void)tabBarDidClickPlusButton:(JDYTabBar *)tabBar
 {
-    JDYRemoveMissViewController *vc = [[JDYRemoveMissViewController alloc] init];
+    JDYRemoveViewController *vc = [[JDYRemoveViewController alloc] init];
     vc.view.backgroundColor = [UIColor grayColor];
     [self presentViewController:vc animated:YES completion:^{
         

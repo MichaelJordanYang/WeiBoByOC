@@ -83,24 +83,5 @@
     }
 }
 
-//    NSInteger count = self.subviews.count;
-//    
-//    for (int i = 0; i < count; i++) {
-//        UIView *child = self.subviews[i];
-//        Class class = NSClassFromString(@"UITabBarButton");
-//        if ([child isKindOfClass:class]) {
-//            //设置宽度
-//            child.JDY_width = tabbarButtonW;
-//            
-//            //设置x
-//            child.JDY_x = tabbarButtonIndex * tabbarButtonW;
-//            
-//            //添加索引
-//            tabbarButtonIndex++;
-//            if (tabbarButtonIndex == 2) {
-//                tabbarButtonIndex++;
-//            }
-//        }
-    
 
 @end

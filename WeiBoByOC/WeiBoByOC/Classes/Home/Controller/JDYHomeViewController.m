@@ -10,7 +10,9 @@
 #import "JDYDropdownMenu.h"
 
 #import "JDYMenuViewController.h"
-@interface JDYHomeViewController ()
+@interface JDYHomeViewController ()<JDYDropdownMenuDelegate>
+
+//@property (nonatomic, weak) UIButton *titleButton;
 
 @end
 
@@ -52,21 +54,20 @@
     //创建下拉菜单
     JDYDropdownMenu *menu = [JDYDropdownMenu menu];
     
+    //设置代理
+    menu.delegate = self;
+    
     //设置内容
-//    menu.content = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, 0, 100)];
- 
     JDYMenuViewController *menuVc = [[JDYMenuViewController alloc] init];
     
     menuVc.view.JDY_height = 44 * 2;
     
-//    menu.content = menuVc.view;
     menu.contenController = menuVc;
     
     //显示
     [menu showFrom:titleButton];
     
-    //隐藏
-//    [menu dismiss];
+  
     
 }
 
@@ -79,5 +80,31 @@
 {
     NSLog(@"点击了右边");
 }
+
+
+#pragma mark --------------------
+#pragma mark JDYDropdownMenuDelegate
+/**
+ *  下拉菜单被销毁了调用
+ */
+- (void)dropdownMenuDidDismiss:(JDYDropdownMenu *)menu
+{
+    UIButton *titleButton = (UIButton *)self.navigationItem.titleView;
+    //箭头朝下
+    titleButton.selected = NO;
+//    [titleButton setImage:[UIImage imageNamed:@"navigationbar_arrow_down"] forState:UIControlStateNormal];
+}
+/**
+ *  下拉菜单显示调用
+ */
+- (void)dropdownMenuDidShow:(JDYDropdownMenu *)menu
+{
+    UIButton *titleButton = (UIButton *)self.navigationItem.titleView;
+    //让箭头向上
+//    [titleButton setImage:[UIImage imageNamed:@"navigationbar_arrow_up"] forState:UIControlStateNormal];
+    titleButton.selected = YES;
+
+}
+
 
 @end

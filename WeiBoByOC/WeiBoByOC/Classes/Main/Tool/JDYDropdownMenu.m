@@ -121,6 +121,11 @@
     
     self.containerView.JDY_y = CGRectGetMaxY(newFrame);
     
+    //通知外界自己显示了
+    if ([self.delegate respondsToSelector:@selector(dropdownMenuDidShow:)]) {
+        [self.delegate dropdownMenuDidShow:self];
+    }
+    
 }
 
 /**
@@ -128,10 +133,14 @@
  */
 - (void)dismiss
 {
-    /**
-     *  将菜单从窗口中移除
-     */
+    
+     // 将菜单从窗口中移除
     [self removeFromSuperview];
+    
+    // 通知外界自己被销毁了.
+    if ([self.delegate respondsToSelector:@selector(dropdownMenuDidDismiss:)]) {
+        [self.delegate dropdownMenuDidDismiss:self];
+    }
 }
 
 //点击view调用方法
@@ -139,6 +148,7 @@
 {
     //移除view
     [self dismiss];
+   
 }
 
 @end

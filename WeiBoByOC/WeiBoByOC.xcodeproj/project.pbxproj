@@ -27,6 +27,7 @@
 		E342899E1CFC640900C2F1CA /* JDYDropdownMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = E342899D1CFC640900C2F1CA /* JDYDropdownMenu.m */; };
 		E387EEC21CFEE29A000969AC /* JDYMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E387EEC11CFEE29A000969AC /* JDYMenuViewController.m */; };
 		E387EEC51D007A4C000969AC /* JDYTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = E387EEC41D007A4C000969AC /* JDYTabBar.m */; };
+		E3A7DF9B1D04248D00AF0F74 /* JDYRemoveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3A7DF9A1D04248D00AF0F74 /* JDYRemoveViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +69,8 @@
 		E387EEC11CFEE29A000969AC /* JDYMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDYMenuViewController.m; sourceTree = "<group>"; };
 		E387EEC31D007A4C000969AC /* JDYTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDYTabBar.h; sourceTree = "<group>"; };
 		E387EEC41D007A4C000969AC /* JDYTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDYTabBar.m; sourceTree = "<group>"; };
+		E3A7DF991D04248D00AF0F74 /* JDYRemoveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDYRemoveViewController.h; sourceTree = "<group>"; };
+		E3A7DF9A1D04248D00AF0F74 /* JDYRemoveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDYRemoveViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -195,6 +198,8 @@
 			children = (
 				E387EEC01CFEE29A000969AC /* JDYMenuViewController.h */,
 				E387EEC11CFEE29A000969AC /* JDYMenuViewController.m */,
+				E3A7DF991D04248D00AF0F74 /* JDYRemoveViewController.h */,
+				E3A7DF9A1D04248D00AF0F74 /* JDYRemoveViewController.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -436,6 +441,7 @@
 				E387EEC21CFEE29A000969AC /* JDYMenuViewController.m in Sources */,
 				E33D5BB31CFAF44400E5A813 /* JDYNavViewController.m in Sources */,
 				E342899B1CFC514A00C2F1CA /* JDYSearchBar.m in Sources */,
+				E3A7DF9B1D04248D00AF0F74 /* JDYRemoveViewController.m in Sources */,
 				E33D5BB51CFAF44400E5A813 /* JDYMeViewController.m in Sources */,
 				E33D5BB01CFAF44400E5A813 /* JDYDiscoverViewController.m in Sources */,
 				E33D5BB71CFAF44400E5A813 /* AppDelegate.m in Sources */,

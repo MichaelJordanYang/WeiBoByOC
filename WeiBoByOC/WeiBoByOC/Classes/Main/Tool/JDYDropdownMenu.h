@@ -8,7 +8,24 @@
 
 #import <UIKit/UIKit.h>
 
+@class JDYDropdownMenu;
+@protocol JDYDropdownMenuDelegate <NSObject>
+
+@optional
+/**
+ *  当下拉菜单被销毁时调用
+ */
+- (void)dropdownMenuDidDismiss:(JDYDropdownMenu *)menu;
+/**
+ *  当下拉菜单显示的时候调用
+ */
+- (void)dropdownMenuDidShow:(JDYDropdownMenu *)menu;
+@end
+
 @interface JDYDropdownMenu : UIView
+
+@property (nonatomic, weak) id<JDYDropdownMenuDelegate> delegate;
+
 
 + (instancetype)menu;
 /**
