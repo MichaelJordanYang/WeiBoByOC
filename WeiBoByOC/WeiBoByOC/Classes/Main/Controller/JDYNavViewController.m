@@ -70,7 +70,7 @@
     
     [super pushViewController:viewController animated:animated];
     
-    NSLog(@"%lu",(unsigned long)self.viewControllers.count);
+//    NSLog(@"%lu",(unsigned long)self.viewControllers.count);
     
 //    NSLog(@"%@",viewController);
 
