@@ -29,6 +29,7 @@
 		E387EEC51D007A4C000969AC /* JDYTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = E387EEC41D007A4C000969AC /* JDYTabBar.m */; };
 		E3A7DF9B1D04248D00AF0F74 /* JDYRemoveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3A7DF9A1D04248D00AF0F74 /* JDYRemoveViewController.m */; };
 		E3A7DFA01D047FAD00AF0F74 /* JDYNewFeatureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3A7DF9F1D047FAD00AF0F74 /* JDYNewFeatureViewController.m */; };
+		E3A7DFDA1D07B35200AF0F74 /* JDYOAuthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3A7DFD91D07B35200AF0F74 /* JDYOAuthViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -74,6 +75,8 @@
 		E3A7DF9A1D04248D00AF0F74 /* JDYRemoveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDYRemoveViewController.m; sourceTree = "<group>"; };
 		E3A7DF9E1D047FAD00AF0F74 /* JDYNewFeatureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDYNewFeatureViewController.h; sourceTree = "<group>"; };
 		E3A7DF9F1D047FAD00AF0F74 /* JDYNewFeatureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDYNewFeatureViewController.m; sourceTree = "<group>"; };
+		E3A7DFD81D07B35200AF0F74 /* JDYOAuthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDYOAuthViewController.h; sourceTree = "<group>"; };
+		E3A7DFD91D07B35200AF0F74 /* JDYOAuthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDYOAuthViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +129,7 @@
 		E33D5B801CFAF44400E5A813 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				E3A7DFD71D07B2D600AF0F74 /* OAuth */,
 				E3A7DF9C1D047F9F00AF0F74 /* NewFeature */,
 				E33D5B8D1CFAF44400E5A813 /* Main */,
 				E33D5B871CFAF44400E5A813 /* Home */,
@@ -383,6 +387,15 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
+		E3A7DFD71D07B2D600AF0F74 /* OAuth */ = {
+			isa = PBXGroup;
+			children = (
+				E3A7DFD81D07B35200AF0F74 /* JDYOAuthViewController.h */,
+				E3A7DFD91D07B35200AF0F74 /* JDYOAuthViewController.m */,
+			);
+			path = OAuth;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -457,6 +470,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E33D5BBF1CFB125500E5A813 /* UIBarButtonItem+Extension.m in Sources */,
+				E3A7DFDA1D07B35200AF0F74 /* JDYOAuthViewController.m in Sources */,
 				E33D5BB41CFAF44400E5A813 /* JDYTabBarViewController.m in Sources */,
 				E33D5BB91CFAF44400E5A813 /* JDYText1ViewController.m in Sources */,
 				E387EEC21CFEE29A000969AC /* JDYMenuViewController.m in Sources */,
