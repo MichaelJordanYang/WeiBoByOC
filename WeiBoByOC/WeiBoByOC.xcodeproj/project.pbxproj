@@ -38,6 +38,7 @@
 		E393F3C71D09AFD1002C6847 /* MBProgressHUD+XMG.m in Sources */ = {isa = PBXBuildFile; fileRef = E393F3C31D09AFD1002C6847 /* MBProgressHUD+XMG.m */; };
 		E393F3C81D09AFD1002C6847 /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E393F3C41D09AFD1002C6847 /* MBProgressHUD.bundle */; };
 		E393F3C91D09AFD1002C6847 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = E393F3C61D09AFD1002C6847 /* MBProgressHUD.m */; };
+		E393F3CC1D09BF40002C6847 /* JDYAccountTool.m in Sources */ = {isa = PBXBuildFile; fileRef = E393F3CB1D09BF40002C6847 /* JDYAccountTool.m */; };
 		E3A7DF9B1D04248D00AF0F74 /* JDYRemoveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3A7DF9A1D04248D00AF0F74 /* JDYRemoveViewController.m */; };
 		E3A7DFA01D047FAD00AF0F74 /* JDYNewFeatureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3A7DF9F1D047FAD00AF0F74 /* JDYNewFeatureViewController.m */; };
 /* End PBXBuildFile section */
@@ -103,6 +104,8 @@
 		E393F3C41D09AFD1002C6847 /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
 		E393F3C51D09AFD1002C6847 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
 		E393F3C61D09AFD1002C6847 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		E393F3CA1D09BF40002C6847 /* JDYAccountTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDYAccountTool.h; sourceTree = "<group>"; };
+		E393F3CB1D09BF40002C6847 /* JDYAccountTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDYAccountTool.m; sourceTree = "<group>"; };
 		E3A7DF991D04248D00AF0F74 /* JDYRemoveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDYRemoveViewController.h; sourceTree = "<group>"; };
 		E3A7DF9A1D04248D00AF0F74 /* JDYRemoveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDYRemoveViewController.m; sourceTree = "<group>"; };
 		E3A7DF9E1D047FAD00AF0F74 /* JDYNewFeatureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDYNewFeatureViewController.h; sourceTree = "<group>"; };
@@ -159,9 +162,9 @@
 		E33D5B801CFAF44400E5A813 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				E33D5B8D1CFAF44400E5A813 /* Main */,
 				E3A7DFD71D07B2D600AF0F74 /* OAuth */,
 				E3A7DF9C1D047F9F00AF0F74 /* NewFeature */,
-				E33D5B8D1CFAF44400E5A813 /* Main */,
 				E33D5B871CFAF44400E5A813 /* Home */,
 				E33D5B811CFAF44400E5A813 /* Discover */,
 				E33D5B991CFAF44400E5A813 /* Me */,
@@ -398,6 +401,8 @@
 				E342899A1CFC514A00C2F1CA /* JDYSearchBar.m */,
 				E342899C1CFC640900C2F1CA /* JDYDropdownMenu.h */,
 				E342899D1CFC640900C2F1CA /* JDYDropdownMenu.m */,
+				E393F3CA1D09BF40002C6847 /* JDYAccountTool.h */,
+				E393F3CB1D09BF40002C6847 /* JDYAccountTool.m */,
 			);
 			path = Tool;
 			sourceTree = "<group>";
@@ -559,6 +564,7 @@
 				E33D5BB91CFAF44400E5A813 /* JDYText1ViewController.m in Sources */,
 				E387EEC21CFEE29A000969AC /* JDYMenuViewController.m in Sources */,
 				E33D5BB31CFAF44400E5A813 /* JDYNavViewController.m in Sources */,
+				E393F3CC1D09BF40002C6847 /* JDYAccountTool.m in Sources */,
 				E342899B1CFC514A00C2F1CA /* JDYSearchBar.m in Sources */,
 				E36803191D0809EB001A1935 /* AFHTTPSessionManager.m in Sources */,
 				E3A7DF9B1D04248D00AF0F74 /* JDYRemoveViewController.m in Sources */,

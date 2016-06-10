@@ -12,6 +12,7 @@
 #import "JDYNewFeatureViewController.h"
 
 #import "JDYAccount.h"
+#import "JDYAccountTool.h"
 #import "MBProgressHUD+XMG.h"
 @interface JDYOAuthViewController ()<UIWebViewDelegate>
 
@@ -121,18 +122,11 @@
         //隐藏HUD
         [MBProgressHUD hideHUD];
         
-        //沙盒路径
-        NSString *doc = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES)lastObject];
-        //拼接文件
-        NSString *path = [doc stringByAppendingPathComponent:@"account.archiver"];
         
-        //将返回的账号字典数据转成  模型  存进沙盒
         JDYAccount *account = [JDYAccount accountWithDict:responseObject];
         
-        //自定义对象的存储必须用NSKeyedArchiver,不再有什么writeToFile
-        [NSKeyedArchiver archiveRootObject:account toFile:path];
-        
-        [responseObject writeToFile:path atomically:YES];
+        //存储账号信息
+        [JDYAccountTool saveAccount:account];
         
         
         NSString *key = @"CFBundleVersion";

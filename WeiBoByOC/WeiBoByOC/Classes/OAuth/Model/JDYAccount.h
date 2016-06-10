@@ -18,6 +18,9 @@
 /** string 当前授权用户的UID */
 @property (nonatomic, copy) NSString *uid;
 
+//** access token 的创建时间 */
+@property (nonatomic, strong) NSDate *created_time;
+/** 用字典实例化对象的类方法,工厂方法 */
 + (instancetype)accountWithDict: (NSDictionary *)dict;
 
 @end
