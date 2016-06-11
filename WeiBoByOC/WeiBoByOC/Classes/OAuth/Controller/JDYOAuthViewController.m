@@ -8,12 +8,12 @@
 
 #import "JDYOAuthViewController.h"
 #import "AFNetworking.h"
-#import "JDYTabBarViewController.h"
-#import "JDYNewFeatureViewController.h"
 
 #import "JDYAccount.h"
 #import "JDYAccountTool.h"
 #import "MBProgressHUD+XMG.h"
+#import "JDYWindowTool.h"
+
 @interface JDYOAuthViewController ()<UIWebViewDelegate>
 
 @end
@@ -129,28 +129,9 @@
         [JDYAccountTool saveAccount:account];
         
         
-        NSString *key = @"CFBundleVersion";
+        //切换控制器
+        [JDYWindowTool windowSwitchController];
         
-        //上一次使用的版本.存储在沙盒中的版本号
-        NSString *lastVersion = [[NSUserDefaults standardUserDefaults] objectForKey:key];
-        
-        //当前软件版本号.从info.plist中获取
-        NSString *currentVersion = [NSBundle mainBundle].infoDictionary[key];
-        
-        
-        UIWindow *window = [UIApplication sharedApplication].keyWindow;
-        
-        //判断
-        if ([currentVersion isEqualToString:lastVersion]){ //版本号相同:这次打开和上次一打开的是同一个版本
-            window.rootViewController = [[JDYTabBarViewController alloc] init];
-        }else{//这个次打开的版本和上次一的不一样,则显示新版本特性
-            window.rootViewController = [[JDYNewFeatureViewController alloc] init];
-            
-            //将当前版本号存进沙盒中
-            [[NSUserDefaults standardUserDefaults] setObject:currentVersion forKey:key];
-            [[NSUserDefaults standardUserDefaults] synchronize];
-        }
-
         
         NSLog(@"%@---成功",responseObject);
     } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {

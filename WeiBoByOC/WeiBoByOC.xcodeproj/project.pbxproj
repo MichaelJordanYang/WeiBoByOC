@@ -31,6 +31,7 @@
 		E368031C1D0809EB001A1935 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = E36803141D0809EB001A1935 /* AFURLRequestSerialization.m */; };
 		E368031D1D0809EB001A1935 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = E36803161D0809EB001A1935 /* AFURLResponseSerialization.m */; };
 		E368031E1D0809EB001A1935 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E36803181D0809EB001A1935 /* AFURLSessionManager.m */; };
+		E38074821D0BA82F00F67742 /* JDYWindowTool.m in Sources */ = {isa = PBXBuildFile; fileRef = E38074811D0BA82F00F67742 /* JDYWindowTool.m */; };
 		E387EEC21CFEE29A000969AC /* JDYMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E387EEC11CFEE29A000969AC /* JDYMenuViewController.m */; };
 		E387EEC51D007A4C000969AC /* JDYTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = E387EEC41D007A4C000969AC /* JDYTabBar.m */; };
 		E393F3BD1D0963BD002C6847 /* JDYOAuthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E393F3BB1D0963BD002C6847 /* JDYOAuthViewController.m */; };
@@ -91,6 +92,8 @@
 		E36803161D0809EB001A1935 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
 		E36803171D0809EB001A1935 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
 		E36803181D0809EB001A1935 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		E38074801D0BA82F00F67742 /* JDYWindowTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDYWindowTool.h; sourceTree = "<group>"; };
+		E38074811D0BA82F00F67742 /* JDYWindowTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDYWindowTool.m; sourceTree = "<group>"; };
 		E387EEC01CFEE29A000969AC /* JDYMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDYMenuViewController.h; sourceTree = "<group>"; };
 		E387EEC11CFEE29A000969AC /* JDYMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDYMenuViewController.m; sourceTree = "<group>"; };
 		E387EEC31D007A4C000969AC /* JDYTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDYTabBar.h; sourceTree = "<group>"; };
@@ -403,6 +406,8 @@
 				E342899D1CFC640900C2F1CA /* JDYDropdownMenu.m */,
 				E393F3CA1D09BF40002C6847 /* JDYAccountTool.h */,
 				E393F3CB1D09BF40002C6847 /* JDYAccountTool.m */,
+				E38074801D0BA82F00F67742 /* JDYWindowTool.h */,
+				E38074811D0BA82F00F67742 /* JDYWindowTool.m */,
 			);
 			path = Tool;
 			sourceTree = "<group>";
@@ -558,6 +563,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E368031E1D0809EB001A1935 /* AFURLSessionManager.m in Sources */,
+				E38074821D0BA82F00F67742 /* JDYWindowTool.m in Sources */,
 				E393F3C71D09AFD1002C6847 /* MBProgressHUD+XMG.m in Sources */,
 				E33D5BBF1CFB125500E5A813 /* UIBarButtonItem+Extension.m in Sources */,
 				E33D5BB41CFAF44400E5A813 /* JDYTabBarViewController.m in Sources */,
