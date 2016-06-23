@@ -12,7 +12,6 @@
 #import "JDYAccount.h"
 #import "JDYAccountTool.h"
 #import "MBProgressHUD+XMG.h"
-#import "JDYWindowTool.h"
 
 @interface JDYOAuthViewController ()<UIWebViewDelegate>
 
@@ -130,7 +129,8 @@
         
         
         //切换控制器
-        [JDYWindowTool windowSwitchController];
+        UIWindow *window = [UIApplication sharedApplication].keyWindow;
+        [window windowSwitchRootViewController];
         
         
         NSLog(@"%@---成功",responseObject);
